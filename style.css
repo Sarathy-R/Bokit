@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+#seat-info,
+#seat-section,
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#screen {
+    margin: 40px 0;
+}
+
+#screen {
+    width: 100%;
+    background-color: #ffb300;
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding: 15px 0px;
+    word-spacing: 10px;
+}
+
+.container>div {
+    padding: 25px;
+    background-color: #ffffff38;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url("./assets/seat1-bg.jpg");
+    background-size: contain;
+}
+
+
+#movie-banner,
+.row,
+#seat-status,
+#ticket-info h2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#seat-status span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ticket-info h2 {
+    justify-content: center;
+}
+
+#ticket-info span {
+    margin: 0px 10px;
+    color: red;
+    font-weight: bolder;
+}
+
+.seat {
+    height: 25px;
+    width: 20px;
+    background-color: white;
+    margin: 10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    cursor: pointer;
+}
+
+.occupied {
+    background-color: red;
+    border: none;
+    cursor: none;
+}
+
+.selected {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+
+}
+
+#movie-banner img {
+    height: 250px;
+    width: 150px;
+    margin: 20px 20px;
+    border: 5px solid white;
+    cursor: pointer;
+}
+
+.chosen {
+    border: 5px solid yellow !important;
+    cursor: pointer;
+}
+
+.row div:nth-child(2) {
+    margin-right: 15%;
+}
+
+.row div:nth-child(7) {
+    margin-right: 20%;
+}
